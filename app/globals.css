@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #fff;
+  background-image: url(../assets/images/bg-intro-mobile.png);
+  background-color: #ff7979;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(../assets/images/bg-intro-desktop.png);
+  }
+}
